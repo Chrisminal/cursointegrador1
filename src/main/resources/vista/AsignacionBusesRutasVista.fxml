@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1068.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.utp.viacosta.controlador.AsignacionBusRuta">
+
+    <children>
+        <Pane layoutX="8.0" layoutY="9.0" prefHeight="703.0" prefWidth="1049.0" style="-fx-border-color: CCC;" stylesheets="@../css/style.css" AnchorPane.bottomAnchor="8.0" AnchorPane.topAnchor="9.0">
+            <children>
+                <Label layoutX="24.0" layoutY="72.0" text="Ruta:">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font></Label>
+                <Label layoutX="21.0" layoutY="212.0" text="Fecha de salida">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font></Label>
+                <Button fx:id="btn_guardar" layoutX="22.0" layoutY="442.0" mnemonicParsing="false" onAction="#actGuardar" prefHeight="31.0" prefWidth="188.0" styleClass="btn-clasic" stylesheets="@../css/style.css" text="Guardar" />
+                <Button fx:id="btn_actualizar" layoutX="22.0" layoutY="442.0" mnemonicParsing="false" onAction="#actActualizar" prefHeight="31.0" prefWidth="188.0" styleClass="btn-clasic" stylesheets="@../css/style.css" text="Actualizar" />
+                <Button fx:id="btn_limpiar" layoutX="21.0" layoutY="493.0" mnemonicParsing="false" onAction="#actLimpiar" prefHeight="31.0" prefWidth="188.0" styleClass="btn-clasic" stylesheets="@../css/style.css" text="Limpiar" />
+                <Label layoutX="26.0" layoutY="12.0" style="-fx-text-fill: #0066CC;" text="Asignacion de Viajes">
+                    <font>
+                        <Font name="System Bold" size="20.0" />
+                    </font>
+                </Label>
+            <Label layoutX="26.0" layoutY="135.0" text="Bus:">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="cmbRuta" layoutX="22.0" layoutY="89.0" minHeight="30.0" minWidth="188.0" prefHeight="30.0" prefWidth="188.0" promptText="Seleccion la ruta" style="-fx-background-color: F4F4F4; -fx-border-color: CCC; -fx-border-radius: 4px;" />
+            <ComboBox fx:id="cmbBus" layoutX="21.0" layoutY="158.0" minHeight="30.0" minWidth="188.0" prefHeight="30.0" prefWidth="188.0" promptText="Selecciona el Bus" style="-fx-background-color: F4F4F4; -fx-border-color: CCC; -fx-border-radius: 4px;" />
+            <DatePicker fx:id="fechaHoraSalida" editable="false" layoutX="23.0" layoutY="229.0" minHeight="30.0" minWidth="188.0" prefHeight="30.0" prefWidth="188.0" />
+            <TextField fx:id="txtHoraSalida" layoutX="21.0" layoutY="297.0" prefHeight="30.0" prefWidth="188.0" />
+            <Label layoutX="23.0" layoutY="280.0" text="Hora de salida">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <TableView fx:id="tablaBusesRutas" layoutX="251.0" layoutY="140.0" prefHeight="545.0" prefWidth="784.0" stylesheets="@../css/style.css">
+               <columns>
+                  <TableColumn fx:id="columnId" prefWidth="33.0" text="ID" />
+                  <TableColumn fx:id="columnRuta" prefWidth="227.0" text="RUTA" />
+                  <TableColumn fx:id="columnBus" prefWidth="159.0" text="BUS" />
+                  <TableColumn fx:id="columnFechaSalida" prefWidth="141.0" text="FECHA SALIDA" />
+                  <TableColumn fx:id="columnHoraSalida" prefWidth="112.0" text="HORA SALIDA" />
+                  <TableColumn fx:id="columnPrecio" prefWidth="91.199951171875" text="PRECIO" />
+               </columns>
+            </TableView>
+            <Label layoutX="24.0" layoutY="41.0" prefHeight="20.0" prefWidth="206.0" style="-fx-font-size: 14;" stylesheets="@../../../../../../viacosta-pasajes/src/main/resources/css/style.css" text="Ingresa los datos del empleado" textFill="#656565">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtPrecio" layoutX="21.0" layoutY="371.0" prefHeight="30.0" prefWidth="188.0" />
+            <Label layoutX="23.0" layoutY="354.0" text="Precio">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtBuscar" layoutX="251.0" layoutY="89.0" minHeight="30.0" minWidth="188.0" prefHeight="30.0" prefWidth="317.0" promptText="Buscar por ruta o bus" />
+            <Label layoutX="251.0" layoutY="64.0" text="Buscar Viaje:">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <DatePicker fx:id="fechaFin" editable="false" layoutX="759.0" layoutY="87.0" minHeight="30.0" minWidth="143.0" prefHeight="30.0" prefWidth="143.0" />
+            <Label layoutX="588.0" layoutY="62.0" text="Fecha Inicio:">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="759.0" layoutY="62.0" text="Fecha Final:">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="err_ruta" layoutX="23.0" layoutY="119.0" styleClass="error-label" />
+            <Label fx:id="err_bus" layoutX="21.0" layoutY="188.0" styleClass="error-label" />
+            <Label fx:id="err_fecha" layoutX="23.0" layoutY="258.0" styleClass="error-label" />
+            <Label fx:id="err_hora" layoutX="21.0" layoutY="328.0" styleClass="error-label" />
+            <Label fx:id="err_precio" layoutX="23.0" layoutY="398.0" styleClass="error-label" />
+            <DatePicker fx:id="fechaInicio" editable="false" layoutX="584.0" layoutY="87.0" minHeight="30.0" minWidth="150.0" prefHeight="30.0" prefWidth="152.0" />
+            <Button layoutX="919.0" layoutY="87.0" mnemonicParsing="false" onMouseClicked="#btnRefresh" prefHeight="31.0" prefWidth="114.0" styleClass="btn-clasic" stylesheets="@../css/style.css" text="Refresh" />
+            </children>
+        </Pane>
+    </children>
+
+</AnchorPane>
