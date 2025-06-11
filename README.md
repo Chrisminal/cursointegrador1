@@ -1,41 +1,38 @@
-<h1 align="center" id="title">Sistema de venta de pasaje</h1>
+<h1 align="center" id="title">Sistema de Venta de Pasajes</h1>
 
-<h2>💖Capturas de Pantalla</h2>
-<img src="https://drive.google.com/file/d/13LsiHf-uLq0zK2-FVy3KkxN9AWTpNHGA/view?usp=drive_link" alt="project-image">
+<h2>💖 Capturas de Pantalla</h2>
+<img src="https://drive.google.com/file/d/13LsiHf-uLq0zK2-FVy3KkxN9AWTpNHGA/view?usp=drive_link" alt="Imagen del Proyecto">
 
-<h2>🧐 Funciones</h2>
+<h2>🧐 Características</h2>
 
-Estas son algunas de las características del proyecto::
+Este sistema cuenta con las siguientes funcionalidades:
 
-*   Gestion de Clientes
-*   Gestion de Empleados
-*   Gestion de buses
-*   Asignacion de buses a Rutas
-*   Venta de Pasaje
-
+*   Gestión de Clientes
+*   Gestión de Empleados
+*   Gestión de Buses
+*   Asignación de Buses a Rutas
+*   Venta de Pasajes
 
 <h2>Requisitos:</h2>
-Antes de comenzar, asegúrate de tener instalado:
+Antes de empezar, asegúrate de tener instalados los siguientes componentes:
 
 *   Java (versión 8 o superior)
-*   IDE (se recomienda intellij idea)
-*   MySQL (sistema de gestión de bases de datos)
+*   IDE (se recomienda IntelliJ IDEA)
+*   MySQL (gestor de base de datos)
 
-<h2>🛠️ Pasos de instalación:</h2>
+<h2>🛠️ Guía de Instalación:</h2>
+<!-- Agregar pasos específicos aquí si los necesitas -->
 
+<h2>💻 Tecnologías Utilizadas:</h2>
 
+Las tecnologías empleadas en este proyecto son:
 
+*   **Java** - Lenguaje de programación principal
+*   **Spring Boot** - Framework para gestionar dependencias y crear aplicaciones
+*   **JavaFX** - Framework para crear la interfaz gráfica
+*   **CSS** - Para la estilización de la interfaz gráfica
+*   **MySQL** - Base de datos para almacenar la información
 
-<h2>💻 Construido con: </h2>
+<h2>💻 Desarrolladores:</h2>
+- Navarro 
 
-Tecnologías utilizadas en el proyecto:
-*   Java - Lenguaje de programación principal
-*   Spring Boot - Framework para la gestión de dependencias y creación de aplicaciones
-*   JavaFX - Creacion de la interfaz gráfica
-*   css - Para los estilos de la intefaz grafica
-*   MySQL - Base de datos para almacenamiento de datos
-
-<h2>💻 Equipo de desarrollo: </h2>
-Navarro  <a href=""> <img style="width: 50px; min-width: 50px" src="https://blog.b2bstack.com.br/wp-content/uploads/2022/11/LinkedIn-simbolo.jpg"></a><br>
-AAA  <a href=""> <img style="width: 50px; min-width: 50px" src="https://blog.b2bstack.com.br/wp-content/uploads/2022/11/LinkedIn-simbolo.jpg"></a><br>
-AAA <a href=""> <img style="width: 50px; min-width: 50px" src="https://blog.b2bstack.com.br/wp-content/uploads/2022/11/LinkedIn-simbolo.jpg"></a><br>
