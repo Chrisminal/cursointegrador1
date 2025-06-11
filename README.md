@@ -34,5 +34,5 @@ Las tecnologías empleadas en este proyecto son:
 *   **MySQL** - Base de datos para almacenar la información
 
 <h2>💻 Desarrolladores:</h2>
-NAVARRO LLEMPEN, Cristopher Harold	Cod. U22100324 
-PEDRAZA CORALES, Keiser Brandon Cod. U22312932
+<h2>NAVARRO LLEMPEN, Cristopher Harold	Cod. U22100324 </h2>
+<h2>PEDRAZA CORALES, Keiser Brandon Cod. U22312932 </h2>
