@@ -1,7 +1,7 @@
 <h1 align="center" id="title">Sistema de Venta de Pasajes</h1>
 
 <h2>💖 Capturas de Pantalla</h2>
-<img src="https://drive.google.com/file/d/13LsiHf-uLq0zK2-FVy3KkxN9AWTpNHGA/view?usp=drive_link" alt="Imagen del Proyecto">
+<img src="https://s3.amazonaws.com/media.greatplacetowork.com/peru/best-workplaces-in-peru/2025/3-mas-de-1000/12-utp/logo.png" alt="Imagen del Proyecto">
 
 <h2>🧐 Características</h2>
 
